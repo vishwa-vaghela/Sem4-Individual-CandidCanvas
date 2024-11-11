@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-parallax {
+    min-height: 100vh;
+    background: url('./Images/background-img.jpg') no-repeat;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* overflow: scroll; */
+}
+
+.body-parallax video{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  /* object-fit: cover; */
+  /* z-index: -1; */
+}
+
+.images{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .images img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none ; 
+  } 
+  
+  .images .i1{
+    margin-top: 65px;
+    margin-left: 150px;
+    height: 270px;
+    width: 450px;
+    z-index: 11000;
+    box-shadow: 0 0 55px 0 #0F3443, 0 50px 55px 0 rgba(0, 0, 0, 0.2);
+    
+  }
+  .images .i2{
+    margin-top: 370px;
+    margin-left: 150px;
+    height: 270px;
+    width: 450px;
+    z-index: 11000;
+    box-shadow: 0 0 55px 0 #0F3443, 0 50px 55px 0 rgba(0, 0, 0, 0.2);
+  }
+  .images .i3{
+    margin-top: 65px;
+    margin-left:900px ;
+    height: 270px;
+    width: 450px;
+    z-index: 11000;
+    box-shadow: 0 0 55px 0 #0F3443, 0 50px 55px 0 rgba(0, 0, 0, 0.2);
+  }
+  .images .i4{
+    margin-top: 370px;
+    margin-left:900px ;
+    height: 270px;
+    width: 450px;
+    z-index: 11000;
+    box-shadow: 0 0 55px 0 #0F3443, 0 50px 55px 0 rgba(0, 0, 0, 0.2);
+  }
+  .slogan{
+    color: aliceblue;
+    font-size: 50px;
+    font-style: italic;
+    transition: font-size 1s ease;
+  }
+/* -------------------------- */
